@@ -1,0 +1,82 @@
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.box{
+    width: 800px;
+    margin: auto;
+}
+
+.logo{
+    text-align: center;
+    display: block;
+}
+
+.logo-img{
+    width: 30%;
+    margin-top: 70px;
+}
+
+.logo-text{
+    color: rgb(5, 230, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search{
+    text-align: center;
+    background-color: rgb(5, 230, 5);
+    padding: 15px;
+}
+
+.scooter{
+    margin-top: 30px;
+    margin-left: auto;
+    font-size: 15px;
+    color: white
+}
+
+.subject{
+    display: inline;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.row-street{
+    display: block;
+    padding: 1px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.row-charge{
+    display: block;
+    padding: 1px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.mid-charge{
+    background-color: orange;
+    width: 350px;
+    height: 20px;
+    border-radius: 5px;
+}
+.full-charge{
+    background-color: rgb(9, 199, 16);
+    width: 600px;
+    height: 20px;
+    border-radius: 5px;
+}
+.low-charge{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+}
